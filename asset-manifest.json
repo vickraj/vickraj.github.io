@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.2fb2bf27.css",
   "main.css.map": "static/css/main.2fb2bf27.css.map",
-  "main.js": "static/js/main.d35bf190.js",
-  "main.js.map": "static/js/main.d35bf190.js.map",
+  "main.js": "static/js/main.4363d0de.js",
+  "main.js.map": "static/js/main.4363d0de.js.map",
   "static\\media\\cmunss.ttf": "static/media/cmunss.1b24573c.ttf",
   "static\\media\\ec.png": "static/media/ec.14452c7f.png",
   "static\\media\\ecl.ttf": "static/media/ecl.7c4112de.ttf",
@@ -12,6 +12,7 @@
   "static\\media\\nmf_topic.png": "static/media/nmf_topic.b976293b.png",
   "static\\media\\phone.png": "static/media/phone.459d993f.png",
   "static\\media\\pythagorean.png": "static/media/pythagorean.57a9b2e8.png",
+  "static\\media\\resume.pdf": "static/media/resume.27eb17a0.pdf",
   "static\\media\\topics_30.png": "static/media/topics_30.d9484ace.png",
   "static\\media\\trianglify.png": "static/media/trianglify.278da52a.png",
   "static\\media\\twitter.png": "static/media/twitter.2c64644f.png",
