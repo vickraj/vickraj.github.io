@@ -1,7 +1,19 @@
 {
-  "main.css": "static/css/main.d3455c81.css",
-  "main.css.map": "static/css/main.d3455c81.css.map",
-  "main.js": "static/js/main.69c6ec9b.js",
-  "main.js.map": "static/js/main.69c6ec9b.js.map",
-  "static\\media\\trianglify.png": "static/media/trianglify.278da52a.png"
+  "main.css": "static/css/main.c13a4f5d.css",
+  "main.css.map": "static/css/main.c13a4f5d.css.map",
+  "main.js": "static/js/main.a4ffc5bd.js",
+  "main.js.map": "static/js/main.a4ffc5bd.js.map",
+  "static\\media\\ec.png": "static/media/ec.14452c7f.png",
+  "static\\media\\fortuna.png": "static/media/fortuna.c6013a38.png",
+  "static\\media\\gmail.png": "static/media/gmail.847c083c.png",
+  "static\\media\\morse.png": "static/media/morse.3a370bc4.png",
+  "static\\media\\nmf_topic.png": "static/media/nmf_topic.b976293b.png",
+  "static\\media\\phone.png": "static/media/phone.459d993f.png",
+  "static\\media\\pythagorean.png": "static/media/pythagorean.57a9b2e8.png",
+  "static\\media\\topics_30.png": "static/media/topics_30.d9484ace.png",
+  "static\\media\\trianglify.png": "static/media/trianglify.278da52a.png",
+  "static\\media\\twitter.png": "static/media/twitter.2c64644f.png",
+  "static\\media\\website.png": "static/media/website.dedeb7fb.png",
+  "static\\media\\whgl2.png": "static/media/whgl2.1584908e.png",
+  "static\\media\\whgl5.png": "static/media/whgl5.77c454d8.png"
 }
