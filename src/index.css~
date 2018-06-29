@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'caecilia light';
+  src: URL('ecl.ttf') format('truetype');
+}
+html {
+    overflow-y: scroll;
+}
+body {
+  background-color: #ccccff;
+  padding: 20px;
+  margin: 0px 300px 0px 300px;
+}
+h1, h2, p, ul, li {
+    font-family: caecilia light;
+}
+h3 {
+    font-family: caecilia light;
+    color: gray;
+}
+
+
+ul {
+    position: sticky;
+    top: 0;
+}
+ul.header li {
+    display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #0099FF;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
