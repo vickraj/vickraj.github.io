@@ -7,10 +7,9 @@ write-ups.
 ## Version 1.0
 
 ## TODO
-* Small CSS fixes
-** Fix the weird pixel problem between the About Me and Projects
+* Fix the weird pixel problem between the About Me and Projects
   section.
-** Fix and make the images in the Contact section scalable to screen
+* Fix and make the images in the Contact section scalable to screen
   size.
 
-** Make the NavBar scalable to screen size. 
+* Make the NavBar scalable to screen size. 
