@@ -11,6 +11,12 @@ import {
   ButtonWrapper,
 } from "./styles";
 
+import React, {useCallback} from 'react';
+import {useHistory} from 'react-router-dom';
+
+
+
+
 const RightBlock = ({
   title,
   content,
@@ -19,6 +25,9 @@ const RightBlock = ({
   t,
   id,
 }: ContentBlockProps) => {
+
+const history = useHistory();
+const handleOnClick= useCallback(() => history.push('/projects'), [history]);
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -41,7 +50,7 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={handleOnClick}
                       >
                         {t(item.title)}
                       </Button>

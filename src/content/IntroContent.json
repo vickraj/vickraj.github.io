@@ -1,13 +1,14 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Hi, I'm Vickram",
+    "text": "AI/ML Research Scientist interested in understanding how to make machine learning useful.",
   "button": [
     {
-      "title": "Explore"
+	"title": "About Me",
+	"onClick": "() => this.nextPath('/')"
     },
     {
-      "title": "Learn more",
-      "color": "#fff"
+	"title": "Projects"
+	
     }
   ]
 }

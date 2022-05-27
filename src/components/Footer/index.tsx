@@ -40,7 +40,7 @@ const Footer = ({ t }: any) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <SvgIcon src={src} width="50px" height="50px" />
       </a>
     );
   };
@@ -102,27 +102,6 @@ const Footer = ({ t }: any) => {
                 {t("Careers & Culture")}
               </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
-            </Col>
           </Row>
         </Container>
       </FooterSection>
@@ -145,27 +124,21 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="https://github.com/vickraj"
+                src="github_white_2.png"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="https://twitter.com/vickitidrum"
+                src="twitter.png"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                href="https://www.linkedin.com/in/vickram-rajendran-563710148/"
+                src="linkedin.png"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://www.facebook.com/vickram.rajendran.3"
+                src="facebook.png"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>
