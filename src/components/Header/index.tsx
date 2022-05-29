@@ -16,7 +16,24 @@ import {
   Span,
 } from "./styles";
 
+import React, {useCallback} from 'react'
+
+import pdfFile from "../../content/Resume/resume.pdf"
+
+import {useHistory, Link} from 'react-router-dom'
+
+
+
+
 const Header = ({ t }: any) => {
+
+  const history = useHistory();
+  const homeHandle= useCallback(() => history.push('/'), [history]);
+  const aboutHandle= useCallback(() => history.push('/about'), [history]);
+  const projectsHandle= useCallback(() => history.push('/projects'), [history]);
+   const researchHandle= useCallback(() => history.push('/research'), [history]);
+  const articlesHandle= useCallback(() => history.push('/articles'), [history]);
+  
   const [visible, setVisibility] = useState(false);
 
   const showDrawer = () => {
@@ -37,18 +54,25 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+      
+        <CustomNavLinkSmall onClick={homeHandle}>
+          <Span>{t("Home")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={aboutHandle}>
           <Span>{t("About Me")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+	<CustomNavLinkSmall onClick={researchHandle}>
+          <Span>{t("Research")}</Span>
+        </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={projectsHandle}>
           <Span>{t("Projects")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Articles")}</Span>
+        <CustomNavLinkSmall href = { pdfFile }>
+          <Span>{t("Resume")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
+        <CustomNavLinkSmall 
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => scrollTo("footer")}
         >
           <Span>
             <Button>{t("Contact")}</Button>

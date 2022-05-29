@@ -1,0 +1,9 @@
+{
+  "title": " Jabberwocky - Question Answering with Pseudowords",
+    "author": "Vickram Rajendran, Eryk Banatt*",
+    "content": " We show that Large Language Models (LLM's) that train on internet-scale data fail dramatically when they are presented with pseudowords. We take inspiration from psycholinguistic experiments and develop question answering datasets that comprise of pseudowords - words that follow all the morphological and phonotactic rules of the language, but have no meaning. This allows us to evaluate how well large language models in various settings perform when given words that they are guaranteed to have no knowledge of, and benchmark their larger reasoning capabilities. *Equal Contribution.",
+  "link": [
+  ],
+    "accept": "In Preparation.",
+    "icon": "gostak.png"
+}

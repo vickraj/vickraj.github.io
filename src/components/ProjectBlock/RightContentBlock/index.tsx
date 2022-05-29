@@ -7,46 +7,15 @@ import { Fade } from "react-awesome-reveal";
 import {
   RightBlockContainer,
   Content,
+  ProjectTitle,
   ContentWrapper,
   ButtonWrapper,
 } from "./styles";
 
-import {pdfFile} from "/content/Resume/resume.pdf"
-
 import React, {useCallback} from 'react';
 import {useHistory} from 'react-router-dom';
 
-
-
-
-const RightBlock = ({
-  title,
-  content,
-  button,
-  icon,
-  t,
-  id,
-}: ContentBlockProps) => {
-
-const history = useHistory();
-
-
-
-  
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-  return (
-    <RightBlockContainer>
-      <Fade>
-        <Row justify="space-between" align="middle" id={id}>
-          <Col lg={11} md={11} sm={11} xs={24}>
-            <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+/*
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
@@ -62,9 +31,35 @@ const history = useHistory();
                     );
                   })}
               </ButtonWrapper>
+	      */
+
+const RightBlock = ({
+  title,
+  content,
+  button,
+  icon,
+  t,
+  id,
+}: ContentBlockProps) => {
+
+const history = useHistory();
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id) as HTMLDivElement;
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  return (
+    <RightBlockContainer>
+      <Fade direction="right">
+        <Row justify="space-between" align="middle" id={id}>
+          <Col lg={11} md={11} sm={11} xs={24}>
+            <ContentWrapper>
+              <ProjectTitle>{t(title)}</ProjectTitle>
+              <Content>{t(content)}</Content>
             </ContentWrapper>
           </Col>
-          <Col lg={11} md={11} sm={12} xs={24}>
+	  <Col lg={11} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
         </Row>

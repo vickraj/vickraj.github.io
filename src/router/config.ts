@@ -8,6 +8,16 @@ const routes = [
   path: ["/projects"],
   exact: true,
   component: "Projects",
+  },
+  {
+  path: ["/research"],
+  exact: true,
+  component: "Research",
+  },
+  {
+  path: ["/about"],
+  exact: true,
+  component: "About",
   }
 ];
 

@@ -15,7 +15,7 @@ export const LogoContainer = styled(Link)`
   display: flex;
 `;
 
-export const NavLink = styled("div")`
+export const NavLink = styled("a")`
   display: inline-block;
   text-align: center;
 `;
@@ -50,7 +50,7 @@ export const Burger = styled("div")`
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: #fff;
   }
 `;
 
@@ -74,6 +74,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;
+    color: #000;
   }
 `;
 

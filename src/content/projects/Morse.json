@@ -1,0 +1,13 @@
+{
+  "title": "Morse Theory and Linkages",
+    "author": "Vickram Rajendran",
+    "content": "The final paper and presentation I wrote for my Computational Geometry class (Fall 2017), in which Morse Theory is used to determine the topology of the moduli spaces of closed linkages. A linkage is a system of 'bars', connected to each other only at their endpoints, such that each bar has a specified length. A configuration of the linkage is a set of points in the plane determining where the endpoints of these bars are, so we can imagine that a configuration is simply a realization of these bars into the plane. We say that two configurations are 'the same' if one is an affine transformation of the other, and the moduli space is the configuration space modulo this restriction. It is easy enough to believe that the moduli space of a linkage is (usually) smooth, since we can visually perturb a configuration slightly without destroying it, and that allows us to study the topology of the moduli space with tools from differential topology.",
+    "link": [
+	{
+	    "title": "Paper",
+	    "href": "https://github.com/vickraj/Morse_Theory_and_Linkages"
+	}
+  ],
+    "accept": "Complete.",
+    "icon": "morse.png"
+}

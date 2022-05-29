@@ -1,0 +1,18 @@
+{
+  "title": "Text Classification of Horror Authors",
+    "author": "Vickram Rajendran, Caleb Ho",
+    "content": "The final project for my Machine Learning class (Fall 2017), in which my partner and I implemented, compared, tuned, optimized, and analyzed several algorithms for text classification, the problem of determining an author given a snippet of text and a set of possible authors. We used standard algorithms like Multinomial Naive-Bayes, Topic modelling with Latent Dirichlet Allocation and Non-negative Matrix Factorization, and sequential learners like an Long Short Term Memory neural network and a Hidden Markov Model. After comparing the performance and tuning our models, we analyzed the results with both log-loss and categorical cross-entropy, as well as more general trends between the various classes of models (sequential vs topic, discriminative vs general). Our final results had over 80% average accuracy on two different classifiers.",
+    "link": [
+	{
+	    "title": "Paper",
+	    "href": "https://github.com/vickraj/TextClassification/blob/master/Final_Paper.pdf"
+	    
+	},
+	{
+	    "title": "Code",
+	    "href": "https://github.com/vickraj/TextClassification"
+	}
+  ],
+    "accept": "Complete.",
+    "icon": "textclass.png"
+}

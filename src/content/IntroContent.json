@@ -1,14 +1,14 @@
 {
   "title": "Hi, I'm Vickram",
-    "text": "AI/ML Research Scientist interested in understanding how to make machine learning useful.",
+    "text": "Machine Learning | Math | Bouldering | Melee",
   "button": [
     {
 	"title": "About Me",
-	"onClick": "() => this.nextPath('/')"
+	"onClick": "/about"
     },
     {
-	"title": "Projects"
-	
+	"title": "Research",
+	"onClick": "/research"
     }
   ]
 }

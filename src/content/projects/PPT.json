@@ -1,0 +1,9 @@
+{
+    "title": "Search Algorithms for Primitive Pythagorean Triplets",
+    "author": "Vickram Rajendran",
+    "content" : "Pythagorean triples have long been studied, and appear in a surprising amount of contexts. However, while several algorithms for generating all possible triplets have been made, not much thought or research has gone into specific algorithms that generate triples satisfying certain conditions. In this research we examine several interesting conditions we may want pythagorean triangles to have, and posit efficient algorithms to find triples satisfying certain properties. We perform complexity analysis on various search problems, and find surprising reductions for efficiently finding primitive pythagorean triplets that have a specific odd leg.",
+    "link": [
+  ],
+    "accept": "On Hiatus.",
+    "icon": "ppt.png"
+}

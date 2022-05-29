@@ -13,11 +13,10 @@ export const RightBlockContainer = styled("section")`
   }
 `;
 
-export const Content = styled("p")`
-  margin: 1.5rem 0 2rem 0;
-`;
 
-export const ButtonText = styled("p")`
+export const Content = styled("p")`
+  font-size: 18px;
+  margin: 1.5rem 0 2rem 0;
 `;
 
 export const ContentWrapper = styled("div")`
@@ -27,6 +26,15 @@ export const ContentWrapper = styled("div")`
   @media only screen and (max-width: 575px) {
     padding-bottom: 4rem;
   }
+`;
+
+export const ProjectTitle = styled("h3")`
+  font-size: 35px;
+  line-height: 2.5rem;
+  
+  padding: 0.5rem 0;
+  color: #fff;
+  font-family: "Motiva Sans Bold", sans-serif;
 `;
 
 export const ButtonWrapper = styled("div")`
@@ -42,3 +50,18 @@ export const ButtonWrapper = styled("div")`
     margin-left: 20px;
   }
 `;
+
+export const MinTitle = styled("h6")`
+  font-size: 15px;
+  line-height: 1rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Motiva Sans Light", sans-serif;
+`;
+
+export const MinPara = styled("p")`
+  font-size: 12px;
+`;
+
+

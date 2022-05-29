@@ -1,0 +1,13 @@
+{
+  "title": "Elliptic Curve Algorithms",
+    "author": "Vickram Rajendran",
+    "content": "This is an implementation of various algorithms on Elliptic Curves, including finding divisors to efficiently compute the Weil Pairing, solving discrete logs on Elliptic Curves, One Round Tripartite Diffie-Hellman Key exchange, the elliptic curve method for factorization, primality testing, the Elliptic Curve Digital Signature Algorithm, regular computation with the Elliptic Curve group law, and efficient computations in prime fields such as computing inverses and square roots (Tonelli-Shanks). Subsequent versions should include full Galois field support, the MOV attack, the SEA algorithm for point counting, Bonneh-Franklin's Identity Based Encryption scheme, and maybe some Attribute Based Encryption schemes as well.",
+    "link": [
+	{
+	    "title": "Code",
+	    "href": "https://github.com/vickraj/Elliptic-Curve-Crypto"
+	}
+  ],
+    "accept": "Independent Project, mostly complete as of 2018.",
+    "icon": "elliptic.png"
+}

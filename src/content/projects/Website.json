@@ -1,0 +1,13 @@
+{
+  "title": "Personal Website",
+    "author": "Vickram Rajendran",
+    "content": "Personal Website, written in React javascript and typescript. This was upgraded in 2022 from my previous website.",
+    "link": [
+	{
+	    "title": "Code",
+	    "href": "https://github.com/vickraj/vickraj.github.io"
+	}
+  ],
+    "accept": "Upgraded in 2022.",
+    "icon": "website.png"
+}

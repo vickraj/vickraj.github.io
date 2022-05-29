@@ -1,0 +1,9 @@
+{
+  "title": "Target Domain Data Induces Negative Transfer in Multi Source Classification under Category Shift",
+    "author": "Eryk Banatt, Vickram Rajendran*",
+    "content": "Multi-Source Domain Adaptation is traditionally framed such that each source domain has examples from every category, and each source domain is different from the target domain. However, in practical scenarios, it is often the case that the available training data within the target domain only exist for a limited number of classes, with the remaining classes only available within surrogate domains. We show that including the target domain in training when there exist disjoint classes between the target and surrogate domains creates significant negative transfer, and causes performance to significantly decrease compared to training without the target domain at all. We hypothesize that this negative transfer is due to decision-tree-like behavior in earlier layers of the neural networks that only occurs when multiple source domains are present, and provide experimental evidence that this may be the case. We show that this phenomena occurs on over 25 distinct domain shifts, both synthetic and real, and in many cases deteriorates the performance to well worse than random.",
+  "link": [
+  ],
+    "accept": "Preprint. Under Review",
+    "icon": "negative_transfer_fig1.png"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Accurate Layerwise Interpretable Competence Estimation",
+    "author": "Vickram Rajendran, William LeVine",
+    "content": "We define competency as a form of generalized uncertainty, and create a baseline competency estimator that performs state-of-the-art uncertainty estimation under various conditions", 
+  "link": [
+    {
+      "title": "Paper",
+	"href": "https://arxiv.org/abs/1910.11363"
+    }
+  ],
+    "accept": "Accepted to the proceedings of NeurIPS 2019.",
+    "icon": "alice_view.png"
+}

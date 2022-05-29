@@ -10,22 +10,20 @@ const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
-const Home = () => {
+const About = () => {
   return (
     <Container>	
       <ScrollToTop />
-
       <ContentBlock
         type="right"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
+        title={AboutContent.title}
+        content={AboutContent.text}
         icon="vickram.png"
-        id="intro"
+        id="About"
       />
       
     </Container>
   );
 };
 
-export default Home;
+export default About;
