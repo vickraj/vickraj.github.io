@@ -1,3 +1,4 @@
+
 import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
@@ -14,11 +15,27 @@ export const Styles = createGlobalStyle`
         font-style: normal;
     }
 
+    @font-face {
+    	font-family: "Mentone-Semibold";
+	src: url("/fonts/mentone-semibol.otf") format("opentype");
+	font-style: normal;
+   }
+
+       @font-face {
+    	font-family: "MergeOne-Regular";
+	src: url("/fonts/MergeOne-Regular.ttf") format("truetype");
+	font-style: normal;
+   }
+          @font-face {
+    	font-family: "Soleil-Semibold";
+	src: url("/fonts/Soleil-Semibold.ttf") format("truetype");
+	font-style: normal;
+   }
 
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'MergeOne-Regular', sans-serif;
     }
 
 
@@ -57,7 +74,7 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
+        font-family: 'Soleil-SemiBold', serif;
 
 	color: #fff;
         font-size: 56px;

@@ -19,7 +19,6 @@ const Home = () => {
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
         icon="vickram.png"
         id="intro"
       />

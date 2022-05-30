@@ -48,7 +48,7 @@ const Footer = ({ t }: any) => {
   return (
     <>
       <Extra>
-        <Container border={true}>
+        <Container border={false}>
           <Row
 	    
             justify="center"

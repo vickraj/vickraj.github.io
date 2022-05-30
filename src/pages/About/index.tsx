@@ -1,7 +1,9 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
+import EducationContent from "../../content/hobbies/EducationContent.json";
+import InterestContent from "../../content/hobbies/InterestContent.json";
+import HobbyContent from "../../content/hobbies/HobbyContent.json";
 
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -12,14 +14,31 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const About = () => {
   return (
+  
     <Container>	
       <ScrollToTop />
       <ContentBlock
         type="right"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        icon="vickram.png"
+        title={InterestContent.title}
+        content={InterestContent.text}
+	icon="vickram_apl.jpg"
         id="About"
+      />
+
+      <ContentBlock
+        type="left"
+        title={EducationContent.title}
+        content={EducationContent.text}
+        icon="swat.jpg"
+        id="Education"
+      />
+
+      <ContentBlock
+        type="right"
+        title={HobbyContent.title}
+        content={HobbyContent.text}
+        icon="apl_neurips_poster.jpg"
+        id="Hobby"
       />
       
     </Container>

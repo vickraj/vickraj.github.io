@@ -93,13 +93,14 @@ export const Outline = styled(MenuOutlined)<any>`
 
 export const Span = styled("span")`
   cursor: pointer;
+  font-weight: 100;
   transition: all 0.3s ease-in-out;
-
+  font-family: "Soleil-SemiBold";
   &:hover,
   &:active,
   &:focus {
     color: rgb(255, 130, 92);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: rgb(255, 130, 92) solid underline;
   }
 `;

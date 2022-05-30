@@ -22,7 +22,7 @@ const LeftContentBlock = ({
 }: ContentBlockProps) => {
   return (
     <LeftContentSection>
-      <Fade direction="left">
+      <Fade>
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
@@ -30,7 +30,12 @@ const LeftContentBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+	      {typeof content === "object" &&
+	         content.map((item: any, id: number) => {
+		 return (
+		 	<Content> {item.content} </Content>
+			);
+			})}
               <ServiceWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&
