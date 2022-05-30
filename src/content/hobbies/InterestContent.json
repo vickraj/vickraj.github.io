@@ -1,4 +1,17 @@
 {
   "title": "Research Interests",
-  "text": "I'm an AI/ML Research Scientist currently at The Johns Hopkins University Applied Physics Lab (JHUAPL) interested in robustness and uncertainty of machine learning models. At JHUAPL, I led several research teams on effort for performing uncertainty estimation, detecting bad labels, label prioritization, and predicting and mitigating domain shift in deep classifiers and object detectors. This work has had a significant impact and successfully transitioned to several sponsor programs."
+    "text": [
+	{
+	    "content": "Broadly speaking, my research interests are in understanding the generalization of machine learning models under domain shift. This can manifest in several different ways - from specific implementation of new methods, to dataset creation, to understanding interesting empirical phenomena. See the Research section for more details."
+	},
+	{
+	    "content": "I am most excited about research problems that are grounded in application or broader impact, whether it is just a proof of concept or part of a bona-fide system - I find this both the most satisfying kind of problem to solve, since you know it will have some amount of impact, as well as a great way to narrow and scope down large machine learning problems into actionable chunks."
+	    
+	},
+	{
+	    "content": "While most of my current work has been in Computer Vision, problems like domain shift or uncertainty estimation span many domains, and I am very interested in seeing how these concepts transform in those spaces. Recently, I have been particularly interested in how these problems manifest in transformers and score-based generative methods such as diffusion models, especially the large language models and the vision-language models."
+	}
+	
+	]
+	
 }

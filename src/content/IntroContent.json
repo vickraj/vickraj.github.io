@@ -1,6 +1,10 @@
 {
   "title": "Hi, I'm Vickram",
-    "text": "Machine Learning | Math | Bouldering | Melee",
+    "text": [
+	{
+	    "content": "Machine Learning | Math | Rock Climbing | Melee"
+	}
+    ],
   "button": [
     {
 	"title": "About Me",

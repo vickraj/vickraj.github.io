@@ -1,13 +1,13 @@
 {
   "title": "Personal Website",
     "author": "Vickram Rajendran",
-    "content": "Personal Website, written in React javascript and typescript. This was upgraded in 2022 from my previous website.",
+    "content": "Personal Website written in React, Javascript and Typescript through create-react-app and deployed with Github-Pages. The antd library was used for React UI, and react-router to make this a Single Page Application. This was upgraded in 2022 from my previous website to have a more modern style, as well as improved mobile viewing.",
     "link": [
 	{
 	    "title": "Code",
 	    "href": "https://github.com/vickraj/vickraj.github.io"
 	}
   ],
-    "accept": "Upgraded in 2022.",
+    "accept": "Independent Project, last updated in 2022.",
     "icon": "website.png"
 }

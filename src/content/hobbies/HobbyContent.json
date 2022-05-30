@@ -1,4 +1,17 @@
 {
   "title": "Hobbies",
-  "text": "Bouldering, Melee, Reading, Assorted Sports (Volleyball, Tennis, Hiking, Lifting, etc."
+    "text": [
+	{
+            "content": "Like probably 70% of people in tech now, I like to climb rocks! I've been climbing off and on for about 4 years now, with a pretty large break due to the pandemic. Since mid-2021, however, I have been much more into it. I have mostly spent my time bouldering indoors, but recently have been top-roping and climbing outside much more. One day someone will convince me to do lead climbing, but I don't anticipate that happening anytime soon." 
+	},
+	{
+	    "content": "When I'm not climbing or lifting, I have a history playing various sorts of games. I'm a semi-retired, semi-professional Super Smash Bros. Melee player (yes, the gamecube one) under the shocking tag 'Vickram'. While I really only play casually now, I used to be ranked 5th in the Greater Philadelphia Region, 2nd in Delaware, and have wins on several Top 100 ranked players."
+	},
+	{
+	    "content": "I enjoy reading - mostly fiction, but I am not opposed to some good non-fiction books as well. I usually spend at least an hour of every day reading, which could range anywhere from three pages of Do Carmo's Riemannian Geometry book to several chapters of the most recent web-fiction that has gathered my interest. My favorite book series are likely the Stormlight Archive, Malazan Book of the Fallen, and Worm."
+	},
+	{
+	    "content": "Outside of these main hobbies, some other assorted things I like to keep myself busy with include hiking, volleyball, tennis, music, random machine learning projects, movies, and television."
+	}
+	]
 }

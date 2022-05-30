@@ -46,7 +46,12 @@ const history = useHistory();
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+	      	      {typeof content === "object" &&
+	         content.map((item: any, id: number) => {
+		 return (
+		 	<Content> {item.content} </Content>
+			);
+			})}
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {

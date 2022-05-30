@@ -21,7 +21,7 @@ const About = () => {
         type="right"
         title={InterestContent.title}
         content={InterestContent.text}
-	icon="vickram_apl.jpg"
+	icon="combo_apl.png"
         id="About"
       />
 
@@ -37,7 +37,7 @@ const About = () => {
         type="right"
         title={HobbyContent.title}
         content={HobbyContent.text}
-        icon="apl_neurips_poster.jpg"
+        icon="library_vancouver.jpg"
         id="Hobby"
       />
       

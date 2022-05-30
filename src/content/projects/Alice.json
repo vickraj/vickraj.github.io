@@ -1,11 +1,19 @@
 {
   "title": "Accurate Layerwise Interpretable Competence Estimation",
     "author": "Vickram Rajendran, William LeVine",
-    "content": "We define competency as a form of generalized uncertainty, and create a baseline competency estimator that performs state-of-the-art uncertainty estimation under various conditions", 
+    "content": "Estimating machine learning performance 'in the wild' is both an important and unsolved problem. In this paper, we seek to examine, understand, and predict the pointwise competence of classification models. Our contributions are twofold - First, we establish a statistically rigorous definition of competence that generalizes the common notion of classifier confidence; second, we present the ALICE (Accurate Layerwise Interpretable Competence Estimation) Score, a pointwise competence estimator for any classifier. By considering distributional, data, and model uncertainty, ALICE empirically shows accurate competence estimation in common failure situations such as class-imbalanced datasets, out-of-distribution datasets, and poorly trained models. Our contributions allow us to accurately predict the competence of any classification model given any input and error function. We compare our score with state-of-the-art confidence estimators such as model confidence and Trust Score, and show significant improvements in competence prediction over these methods on datasets such as DIGITS, CIFAR10, and CIFAR100.", 
   "link": [
     {
       "title": "Paper",
 	"href": "https://arxiv.org/abs/1910.11363"
+    },
+    {
+      "title": "Article",
+	"href": "https://www.jhuapl.edu/PressRelease/191029"
+    },
+      {
+      "title": "Slides",
+	"href": "https://github.com/vickraj/ALICE"
     }
   ],
     "accept": "Accepted to the proceedings of NeurIPS 2019.",

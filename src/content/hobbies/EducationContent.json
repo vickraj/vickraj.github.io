@@ -1,9 +1,12 @@
 {
   "title": "Recent Activity",
     "text": [
-	{"content": "I'm currently an AI/ML Research Scientist at The Johns Hopkins University Applied Physics Lab (JHUAPL) Tactical Intelligence Systems group. In 2019, I became the Assistant Section Supervisor of our groups Machine Perception section, which broadly covers work related to model development and analysis, with a focus on Computer Vision. At JHUAPL, I led several research teams on effort for performing uncertainty estimation, detecting bad labels, label prioritization, and predicting and mitigating domain shift in deep classifiers and object detectors. This work has had a significant impact and successfully transitioned to several sponsor programs."
+	{"content": "I'm currently the Assistant Section Supervisor in Machine Perception at The Johns Hopkins University Applied Physics Lab (JHUAPL) Tactical Intelligence Systems group. The Perception section largely covers work related to model development and analysis, with a focus on Computer Vision. "
 	},
-	{"content": "Prior to my time at JHUAPL, I studied Math and Computer Science at Swarthmore College, and successfully completed my double major in three years. I graduated Summa Cum Laude and with Highest Honors in both Math and Computer Science, a distinction offered to only one other student that year."
+	{
+	    "content": "For the model and data analysis, I have led several research teams on efforts for performing uncertainty estimation, detecting bad labels, label prioritization, and predicting and mitigating domain shift in deep classifiers and object detectors. This work has had a significant impact and successfully transitioned to several sponsor programs. On the model development side, I have led teams to construct real-time, low size weight and power (SWAP), algorithms for image classification, object detection, multi-target tracking, and multi-sensor data fusion that outperformed several industry competitors."
+	},
+	{"content": "Prior to my time at JHUAPL, I studied Math and Computer Science at Swarthmore College, and successfully completed my double major in three years. I graduated Summa Cum Laude and with Highest Honors in both Math and Computer Science (Preparations in Topology, Algebra, Complex Analysis, and Theory of Computation), a distinction offered to only one other student that year."
 	}
 	]
 }

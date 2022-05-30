@@ -51,7 +51,7 @@ const LeftContentBlock = ({
                   {typeof link === "object" &&
                     link.map((item: any, id: number) => {
                       return (
-                        <Col key={id} span={11}>
+                        <Col key={id} span={111}>
 			<CustomNavLinkSmall onClick= {()=> window.open(item.href, "_blank")}
 			> <Span> {t(item.title)} </Span>
 			</CustomNavLinkSmall>
